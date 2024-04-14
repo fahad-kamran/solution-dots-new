@@ -1,0 +1,551 @@
+<!-- 
+    *********************
+    Date : 14-APR-2024
+    Html  v5
+    Css v3
+    Bootstrap  v5.3
+    jQuery v3.7.0
+    Font Awesome Free 6.5.1
+    *********************
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- favicon -->
+    <!-- <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon"> -->
+    <title>SOLUTION DOTS :: DIGITAL ID VERIFICATION</title>
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="./assets/vendor/bootstrap/css/bootstrap.min.css">
+    <!-- slick slider css -->
+    <link rel="stylesheet" href="./assets/vendor/slick-slider/css/slick.css">
+    <!-- global css / custom css -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header class="header sticky-top">
+        <nav class="navbar navbar-expand-lg border-bottom bg-white">
+            <div class="container-xl">
+                <a class="navbar-brand" href="#">
+                    <img src="./assets/images/logo.png" alt="Logo" class="rounded-circle header__logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link">Why Databricks</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">Product</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">Solutions</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">Resources</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">About</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="digital__id__verification">
+        <section class="banner__section bg-white py-5">
+            <div class="container-xl pt-5">
+                <div class="row">
+                    <div class="col-12 col-md-7 mb-5">
+                        <h1 class="hero__heading mb-3 mb-md-4">Knowing your customers has never been so human.</h1>
+                        <p class="fs-18 fw-500 mb-3 mb-md-4">Whether automated or expert-led, online or in-person, IDnow
+                            offers the widest range of identity verification and digital signature solutions in Europe
+                            and
+                            beyond.</p>
+                        <div class="d-flex flex-wrap gap__20">
+                            <a href="#" class="btn__ btn__primary rounded-pill">Connect with our expert <i
+                                    class="fa-solid fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-5">
+                        <img src="./assets/images/digital-id-verification/banner.png" alt="banner" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg___light py-5">
+            <div class="container-xl">
+                <div class="row bg-white mx-0 mb-5">
+                    <div class="col-12 col-md-6 px-0">
+                        <img src="./assets/images/digital-id-verification/id-scanning.png" alt="id-scanning"
+                            class="img-fluid">
+                    </div>
+                    <div class="col-12 col-md-6 px-0">
+                        <div class="p-4 p-md-5">
+                            <h4 class="fw-bold mb-3">Accurate Mobile ID Scanning with No Compromise on Speed</h4>
+                            <p class="fs-18 fw-600 mb-3">Our ID scanning software securely and quickly extracts data
+                                from
+                                2000+ identity documents
+                                worldwide.</p>
+                            <ul class="listing">
+                                <li class="mb-3 fs-14 fw-500 text__light">Scan ID cards, visa stickers, passports,
+                                    drivers' licenses and military IDs in less
+                                    than
+                                    1
+                                    second.</li>
+                                <li class="mb-3 fs-14 fw-500 text__light">Scan Visual Inspection Zones (VIZ), Machine
+                                    Readable Zones (MRZ) and PDF417
+                                    barcodes.
+                                </li>
+                                <li class="mb-3 fs-14 fw-500 text__light">100% scan accuracy rate for IDs with PDF417,
+                                    industry-leading accuracy for other
+                                    documents.
+                                </li>
+                            </ul>
+                            <div class="d-flex align-items-center">
+                                <div class="col-auto">
+                                    <img src="./assets/images/digital-id-verification/qr.png" alt="qr"
+                                        class="img-fluid qr__img">
+                                </div>
+                                <div class="col ps-3">
+                                    <p class="mb-0 fs-13 text__light fw-500">Try the demo now. Scan this QR code to test
+                                        scan your own ID.
+                                </div>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row bg-white mx-0 mb-5">
+                    <div class="col-12 col-md-6 px-0">
+                        <div class="p-4 p-md-5">
+                            <h4 class="fw-bold mb-3">Fake ID Detection Software</h4>
+                            <p class="fs-18 fw-600 mb-3">Reduce human error, prevent fraud and aid regulatory compliance
+                                with instant, automated ID validation.</p>
+                            <ul class="listing">
+                                <li class="mb-3 fs-14 fw-500 text__light">Run authenticity and validity checks to
+                                    identify fake identity documents in 1 second.</li>
+                                <li class="mb-3 fs-14 fw-500 text__light">Designed for use where time is of the essence,
+                                    such as age- verified delivery, delivery driver onboarding and car rental.</li>
+                                <li class="mb-3 fs-14 fw-500 text__light">No need for an internet connection, fraud
+                                    checks can happen on the device.</li>
+                            </ul>
+                            <a href="#" class="btn__ btn__info">EXPLORE AGE VERIFIED DELIVERY</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 px-0">
+                        <img src="./assets/images/digital-id-verification/detection.png" alt="detection"
+                            class="img-fluid">
+                    </div>
+                </div>
+                <div class="row bg-white mx-0">
+                    <div class="col-12 col-md-6 px-0">
+                        <img src="./assets/images/digital-id-verification/protecting.png" alt="protecting"
+                            class="img-fluid">
+                    </div>
+                    <div class="col-12 col-md-6 px-0">
+                        <div class="p-4 p-md-5">
+                            <h4 class="fw-bold mb-3">Protecting Data is Paramount</h4>
+                            <p class="fs-18 fw-600 mb-3">Security is vital when your business is processing identity
+                                data. Our processing and transmission methods are designed to protect personal data.</p>
+                            <ul class="listing">
+                                <li class="mb-3 fs-14 fw-500 text__light">Compliant with applicable data privacy laws
+                                    and business regulations, including GDPR and CCPA.</li>
+                                <li class="mb-3 fs-14 fw-500 text__light">All data processing happens on device, unless
+                                    verification method requires internet connection.</li>
+                                <li class="mb-3 fs-14 fw-500 text__light">Any transmitted data is encrypted and
+                                    anonymized and no personal data is stored on the device.</li>
+                            </ul>
+                            <a href="#" class="btn__ btn__info">LEARN MORE ABOUT SECURITY</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-white py-5">
+            <div class="container-xl">
+                <div class="text-center mb-5">
+                    <h2 class="text__dark mb-3 fw-bold">The Global Identity Standard Across All Industries</h2>
+                    <div class="col-md-8 col-xl-6 mx-auto">
+                        <p class="mb-0 fs-14 fw-500 text__light">Leading brands across industries count on Jumio to stay
+                            ahead of fraud in order to help
+                            protect their customers, profits and reputations from the damage that happens when you fail
+                            to know your customers online.</p>
+                    </div>
+                </div>
+                <div class="flex__boxes">
+                    <a href="#" class="box">
+                        <span class="text-center">
+                            <i class="fa-solid fa-landmark fs-32 mb-2"></i>
+                            <p class="fs-14 mb-0 fw-600">Financial Services</p>
+                        </span>
+                    </a>
+                    <a href="#" class="box">
+                        <span class="text-center">
+                            <i class="fa-solid fa-heart-pulse fs-32 mb-2"></i>
+                            <p class="fs-14 mb-0 fw-600">Healthcare</p>
+                        </span>
+                    </a>
+                    <a href="#" class="box">
+                        <span class="text-center">
+                            <i class="fa-solid fa-dice fs-32 mb-2"></i>
+                            <p class="fs-14 mb-0 fw-600">Online Gaming</p>
+                        </span>
+                    </a>
+                    <a href="#" class="box">
+                        <span class="text-center">
+                            <i class="fa-solid fa-truck fs-32 mb-2"></i>
+                            <p class="fs-14 mb-0 fw-600">Delivery Services</p>
+                        </span>
+                    </a>
+                    <a href="#" class="box">
+                        <span class="text-center">
+                            <i class="fa-solid fa-users-rays fs-32 mb-2"></i>
+                            <p class="fs-14 mb-0 fw-600">Social</p>
+                        </span>
+                    </a>
+                    <a href="#" class="box">
+                        <span class="text-center">
+                            <i class="fa-solid fa-tower-cell fs-32 mb-2"></i>
+                            <p class="fs-14 mb-0 fw-600">Telcos</p>
+                        </span>
+                    </a>
+                    <a href="#" class="box">
+                        <span class="text-center">
+                            <i class="fa-solid fa-key fs-32 mb-2"></i>
+                            <p class="fs-14 mb-0 fw-600">Sharing Economy</p>
+                        </span>
+                    </a>
+                    <a href="#" class="box">
+                        <span class="text-center">
+                            <i class="fa-solid fa-motorcycle fs-32 mb-2"></i>
+                            <p class="fs-14 mb-0 fw-600">Mobility</p>
+                        </span>
+                    </a>
+                    <a href="#" class="box">
+                        <span class="text-center">
+                            <i class="fa-solid fa-landmark-flag fs-32 mb-2"></i>
+                            <p class="fs-14 mb-0 fw-600">Government</p>
+                        </span>
+                    </a>
+                    <a href="#" class="box">
+                        <span class="text-center">
+                            <i class="fa-solid fa-plane fs-32 mb-2"></i>
+                            <p class="fs-14 mb-0 fw-600">Travel & Hospitality</p>
+                        </span>
+                    </a>
+                    <a href="#" class="box">
+                        <span class="text-center">
+                            <i class="fa-solid fa-building fs-32 mb-2"></i>
+                            <p class="fs-14 mb-0 fw-600">Real Estate</p>
+                        </span>
+                    </a>
+                    <a href="#" class="box">
+                        <span class="text-center">
+                            <i class="fa-solid fa-graduation-cap fs-32 mb-2"></i>
+                            <p class="fs-14 mb-0 fw-600">Education</p>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="bg___light py-5">
+            <div class="container-xl">
+                <div class="row bg-white mx-0">
+                    <div class="col-12 col-md-6 px-0">
+                        <img src="./assets/images/digital-id-verification/easily-itegrate.png" alt="easily-itegrate"
+                            class="img-fluid">
+                    </div>
+                    <div class="col-12 col-md-6 px-0">
+                        <div class="p-4 p-md-5">
+                            <h4 class="fw-bold mb-3">Easily Integrate ID Scanning Software</h4>
+                            <p class="fs-18 fw-600 mb-3">Integrate ID scanning and fake ID detection into any mobile or
+                                web- based application.</p>
+                            <ul class="listing">
+                                <li class="mb-3 fs-14 fw-500 text__light">Our SDK supports over 20,000 mobile device
+                                    models.</li>
+                                <li class="mb-3 fs-14 fw-500 text__light">Works on all major operating systems and
+                                    frameworks.</li>
+                                <li class="mb-3 fs-14 fw-500 text__light">Fast and easy integration with a simple and
+                                    well-documented SDK that includes samples and best practice guides to get you
+                                    started.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-white pt-5 blogs__section">
+            <div class="container-xl">
+                <h3 class="fw-bold mb-3">What we think</h3>
+                <div class="row">
+                    <div class="col-12 col-md-8 mb-5">
+                        <div class="blog">
+                            <div class="row">
+                                <div class="col-4 col-md-3">
+                                    <img src="https://placehold.co/300x300/000000/FFFFFF/png?text=blog" alt="blog"
+                                        class="img-fluid">
+                                </div>
+                                <div class="col-8 col-md-8">
+                                    <h5 class="blog__category">Technology innovation</h5>
+                                    <h4 class="blog__title">Technology Vision 2024</h4>
+                                    <p class="blog__description">Lorem ipsum dolor sit amet consectetur adipisicing
+                                        elit.
+                                        Officiis magnam quidem facilis excepturi sunt voluptates.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="blog">
+                            <div class="row">
+                                <div class="col-4 col-md-3">
+                                    <img src="https://placehold.co/300x300/000000/FFFFFF/png?text=blog" alt="blog"
+                                        class="img-fluid">
+                                </div>
+                                <div class="col-8 col-md-8">
+                                    <h5 class="blog__category">Technology innovation</h5>
+                                    <h4 class="blog__title">Technology Vision 2024</h4>
+                                    <p class="blog__description">Lorem ipsum dolor sit amet consectetur adipisicing
+                                        elit.
+                                        Officiis magnam quidem facilis excepturi sunt voluptates.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="blogs__by__category">
+                            <div class="border-bottom">
+                                <h5 class="blog__category fs-12 mb-1 pb-1">Technology Innovation</h5>
+                                <h4 class="blog__title fs-14">Technology Vision 2024</h4>
+                                <h4 class="blog__title fs-14">Technology Vision 2024</h4>
+                            </div>
+                            <div class="border-bottom">
+                                <h5 class="blog__category fs-12 mb-1 pb-1">Strategy & Consulting</h5>
+                                <h4 class="blog__title fs-14">Total Enterprise Reinvention</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-white py-5">
+            <div class="container-xl">
+                <div class="row form__section">
+                    <div class="col-12 col-md-4 mb-5 mb-md-0">
+                        <h1 class="font__secondary mb-3 fw-bold">Talk to an Expert</h1>
+                        <p class="text__light mb-0">Find out more about how we can help your organization navigate its
+                            next.
+                            Let us know your areas
+                            of interest so that we can serve you better.</p>
+                    </div>
+                    <div class="col-12 col-md-8">
+                        <form action="#">
+                            <div class="row">
+                                <div class="col-12 col-sm-6 mb-3">
+                                    <input type="text" placeholder="FIRST NAME" class="form-control">
+                                </div>
+                                <div class="col-12 col-sm-6 mb-3">
+                                    <input type="text" placeholder="LAST NAME" class="form-control">
+                                </div>
+                                <div class="col-12 col-sm-6 mb-3">
+                                    <input type="email" placeholder="EMAIL" class="form-control">
+                                </div>
+                                <div class="col-12 col-sm-6 mb-3">
+                                    <input type="text" placeholder="COMPANY" class="form-control">
+                                </div>
+                                <div class="col-12 col-sm-6 mb-3">
+                                    <input type="text" placeholder="JOB TITLE" class="form-control">
+                                </div>
+                                <div class="col-12 col-sm-6 mb-3">
+                                    <input type="text" placeholder="PHONE" class="form-control">
+                                </div>
+                                <div class="col-12 mb-3">
+                                    <textarea class="form-control" placeholder="MESSAGE" rows="3"></textarea>
+                                </div>
+                                <div class="col-12 mb-3 form-check form-switch ps-5">
+                                    <input class="form-check-input" type="checkbox" role="switch"
+                                        id="flexSwitchCheckChecked">
+                                    <label class="form-check-label" for="flexSwitchCheckChecked">Opt in for marketing
+                                        communication <a href="#" class="text-dark text-decoration-underline">Privacy
+                                            Statement</a></label>
+                                </div>
+                                <div class="col-12">
+                                    <button type="submit" class="btn__ btn__secondary fs-14">SUBMIT</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer bg__secondary py-5">
+        <div class="container-xl">
+            <div class="row border-bottom">
+                <div class="col-6 col-md-4 col-xl-2 mb-5">
+                    <h5 class="text-white group__heading">Digital Engineering Cloud AI</h5>
+                </div>
+                <div class="col-12 col-md-8 col-xl-4 mb-5">
+                    <h5 class="text-white group__heading">Services</h5>
+                    <div class="row">
+                        <div class="col-6">
+                            <h5 class="text-white group__heading__inner">Digital Business</h5>
+                            <ul class="mb-5">
+                                <li><a href="#" class="footer-items">Digital Consulting</a></li>
+                                <li><a href="#" class="footer-items">Data and Analytice</a></li>
+                                <li><a href="#" class="footer-items">Total Experience</a></li>
+                                <li><a href="#" class="footer-items">Software-as-a-Service</a></li>
+                                <li><a href="#" class="footer-items">Enterprise Applications</a></li>
+                                <li><a href="#" class="footer-items">Application Development and Maintenance Engineering
+                                        and R&D</a></li>
+                                <li><a href="#" class="footer-items">Application Modernization</a></li>
+                                <li><a href="#" class="footer-items">Intelligent Automation and Integration</a></li>
+                            </ul>
+                            <h5 class="text-white group__heading__inner">Digital Foundation</h5>
+                            <ul>
+                                <li><a href="#" class="footer-items">Digital Foundation Consulting</a></li>
+                                <li><a href="#" class="footer-items">Hybrid Cloud</a></li>
+                                <li><a href="#" class="footer-items">Digital Workplace</a></li>
+                                <li><a href="#" class="footer-items">CloudSMART</a></li>
+                                <li><a href="#" class="footer-items">Networks</a></li>
+                                <li><a href="#" class="footer-items">Cybersecurity</a></li>
+                                <li><a href="#" class="footer-items">Intelligent Operations</a></li>
+                                <li><a href="#" class="footer-items">Unified Service Management</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-6">
+                            <h5 class="text-white group__heading__inner">Digital Process Operations</h5>
+                            <ul class="mb-5">
+                                <li><a href="#" class="footer-items">Lending Solutions</a></li>
+                                <li><a href="#" class="footer-items">Supply Chain Management</a></li>
+                                <li><a href="#" class="footer-items">Finance and Accounting</a></li>
+                                <li><a href="#" class="footer-items">Marketing Operations and Content</a></li>
+                                <li><a href="#" class="footer-items">Cognitive Automation</a></li>
+                            </ul>
+                            <h5 class="text-white group__heading__inner">Engineering and R&D</h5>
+                            <ul class="mb-5">
+                                <li><a href="#" class="footer-items">Digital Engineering</a></li>
+                                <li><a href="#" class="footer-items">Manufacturing Operations</a></li>
+                                <li><a href="#" class="footer-items">Product Engineering</a></li>
+                                <li><a href="#" class="footer-items">Industry Verticals</a></li>
+                            </ul>
+                            <h5 class="text-white group__heading__inner">CloudSMART</h5>
+                            <ul>
+                                <li><a href="#" class="footer-items">IoT WORKSTM</a></li>
+                                <li><a href="#" class="footer-items">EdTech</a></li>
+                                <li><a href="#" class="footer-items">HCLTech X</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-xl-2 mb-5">
+                    <h5 class="text-white group__heading">Industries</h5>
+                    <ul>
+                        <li><a href="#" class="footer-items">Aerospace and Defense</a></li>
+                        <li><a href="#" class="footer-items">Captive Business Services Consumer Goods</a></li>
+                        <li><a href="#" class="footer-items">Energy and Utilities</a></li>
+                        <li><a href="#" class="footer-items">Technology</a></li>
+                        <li><a href="#" class="footer-items">Life Sciences and Healthcare</a></li>
+                        <li><a href="#" class="footer-items">Manufacturing</a></li>
+                        <li><a href="#" class="footer-items">Mining and Natural Resources</a></li>
+                        <li><a href="#" class="footer-items">Oil and Gas</a></li>
+                        <li><a href="#" class="footer-items">Public Sector</a></li>
+                        <li><a href="#" class="footer-items">Retail</a></li>
+                        <li><a href="#" class="footer-items">Telecom Media and Entertainment Services</a></li>
+                        <li><a href="#" class="footer-items">Travel, Transport, Logistics & Hospitality</a></li>
+                        <li><a href="#" class="footer-items">Financial Services</a></li>
+                        <li><a href="#" class="footer-items">Banking Insurance</a></li>
+                        <li><a href="#" class="footer-items">Capital Markets</a></li>
+                        <li><a href="#" class="footer-items">Fintech</a></li>
+                        <li><a href="#" class="footer-items">Financial Crime Compliance and Risk</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-4 col-xl-2 mb-5">
+                    <h5 class="text-white group__heading">Ecosystem</h5>
+                    <h5 class="text-white group__heading__inner">About Us</h5>
+                    <ul>
+                        <li><a href="#" class="footer-items">About Us Overview</a></li>
+                        <li><a href="#" class="footer-items">Supercharging Progress</a></li>
+                        <li><a href="#" class="footer-items">Leadership</a></li>
+                        <li><a href="#" class="footer-items">Newsroom</a></li>
+                        <li><a href="#" class="footer-items">Annual Report 2023</a></li>
+                        <li><a href="#" class="footer-items">Sustainability Report 2023</a></li>
+                        <li><a href="#" class="footer-items">Global Presence</a></li>
+                        <li><a href="#" class="footer-items">Strategic Alliances</a></li>
+                        <li><a href="#" class="footer-items">Corporate Social</a></li>
+                        <li><a href="#" class="footer-items">Responsibility</a></li>
+                        <li><a href="#" class="footer-items">Awards and Recognition</a></li>
+                        <li><a href="#" class="footer-items">Sustainability</a></li>
+                        <li><a href="#" class="footer-items">Analyst Recognitions</a></li>
+                        <li><a href="#" class="footer-items">Diversity, Equity and Inclusion</a></li>
+                        <li><a href="#" class="footer-items">Privacy Trust Center</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-4 col-xl-2 mb-5">
+                    <h5 class="text-white group__heading">Careers</h5>
+                    <ul>
+                        <li><a href="#" class="footer-items">Careers Overview</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="social__icons__container my-3">
+                <a href="#" class="facebook icon">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="#" class="twitter icon">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+                <a href="#" class="twitter icon">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="#" class="instagram icon">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="#" class="youtube icon">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+                <a href="#" class="youtube icon">
+                    <i class="fa-brands fa-threads"></i>
+                </a>
+            </div>
+            <div class="text-center">
+                <p class="mb-0 fs-12 text-white">Copyright © 2024 HCL Technologies Limited
+                    <a href="#" class="text-white">Contact Us</a>
+                    /
+                    <a href="#" class="text-white">Disclaimer</a>
+                    /
+                    <a href="#" class="text-white">Privacy Statement</a>
+                    /
+                    <a href="#" class="text-white">Terms of use</a>
+                    /
+                    <a href="#" class="text-white">Sitemap</a>
+                    /
+                    <a href="#" class="text-white">Raise a Grievance</a>
+                </p>
+                <p class="mb-0 fs-12 text-white">We use cookies on our site. Please read more about <a href="#">cookies
+                        policy</a> here.</p>
+            </div>
+    </footer>
+
+    <!-- jquery js -->
+    <script src="./assets/vendor/jquery/js/jquery-3.6.4.min.js"></script>
+    <!-- slick slider js -->
+    <script src="./assets/vendor/slick-slider/js/slick.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="./assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- custom js -->
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>

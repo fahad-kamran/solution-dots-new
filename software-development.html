@@ -1,0 +1,891 @@
+<!-- 
+    *********************
+    Date : 14-APR-2024
+    Html  v5
+    Css v3
+    Bootstrap  v5.3
+    jQuery v3.7.0
+    Font Awesome Free 6.5.1
+    *********************
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- favicon -->
+    <!-- <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon"> -->
+    <title>SOLUTION DOTS :: SOFTWARE DEVELOPMENT</title>
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="./assets/vendor/bootstrap/css/bootstrap.min.css">
+    <!-- slick slider css -->
+    <link rel="stylesheet" href="./assets/vendor/slick-slider/css/slick.css">
+    <!-- global css / custom css -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header class="header sticky-top">
+        <nav class="navbar navbar-expand-lg border-bottom bg-white">
+            <div class="container-xl">
+                <a class="navbar-brand" href="#">
+                    <img src="./assets/images/logo.png" alt="Logo" class="rounded-circle header__logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link">Why Databricks</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">Product</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">Solutions</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">Resources</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">About</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="banner__section bg-white py-5">
+        <div class="container-xl pt-5">
+            <div class="row">
+                <div class="col-12 col-md-7 mb-5">
+                    <h1 class="hero__heading mb-3 mb-md-4">Being enough to deliver, small enough to care.</h1>
+                    <p class="fs-18 fw-500 mb-3 mb-md-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi
+                        perspiciatis non eaque dignissimos aperiam corporis voluptatibus magni consequatur fuga harum.
+                    </p>
+                    <div class="d-flex flex-wrap gap__20">
+                        <a href="#" class="btn__ btn__primary rounded-pill">Connect with our expert <i
+                                class="fa-solid fa-arrow-right ms-2"></i></a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-5">
+                    <img src="./assets/images/banner.png" alt="banner" class="img-fluid">
+                </div>
+                <div class="col-12 text-center">
+                    <p class="text__light fw-bold mb-3">Trusted by startups and Fortune <span
+                            class="text__yellow">500</span>
+                        companies</p>
+
+                    <div class="logo__slider border-bottom pb-4 mb-5">
+                        <div>
+                            <img src="https://placehold.co/100x50/000000/FFFFFF/png?text=logo1" alt="logo1"
+                                class="img-fluid">
+                        </div>
+                        <div>
+                            <img src="https://placehold.co/100x50/000000/FFFFFF/png?text=logo2" alt="logo2"
+                                class="img-fluid">
+                        </div>
+                        <div>
+                            <img src="https://placehold.co/100x50/000000/FFFFFF/png?text=logo3" alt="logo3"
+                                class="img-fluid">
+                        </div>
+                        <div>
+                            <img src="https://placehold.co/100x50/000000/FFFFFF/png?text=logo4" alt="logo4"
+                                class="img-fluid">
+                        </div>
+                        <div>
+                            <img src="https://placehold.co/100x50/000000/FFFFFF/png?text=logo5" alt="logo5"
+                                class="img-fluid">
+                        </div>
+                        <div>
+                            <img src="https://placehold.co/100x50/000000/FFFFFF/png?text=logo6" alt="logo6"
+                                class="img-fluid">
+                        </div>
+                        <div>
+                            <img src="https://placehold.co/100x50/000000/FFFFFF/png?text=logo7" alt="logo7"
+                                class="img-fluid">
+                        </div>
+                        <div>
+                            <img src="https://placehold.co/100x50/000000/FFFFFF/png?text=logo8" alt="logo8"
+                                class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="text-start">
+                        <h2 class="section__heading text__secondary mb-3 fw-600">Your end-to-end application
+                            modernization partner</h2>
+                        <p class="text__secondary fw-600">Businesses are struggling to manage the cost and complexity of
+                            legacy technology while operating effectively and preparing for the future. Our end-to-end
+                            work enhances operations, increases efficiency, removes technical debt and modernizes
+                            applications for what is coming next.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="our__services__section bg__secondary py-5">
+        <div class="container-xl">
+            <div class="text-center mb-5">
+                <h2 class="text-white fw-bold">Our services</h2>
+                <p class="text-white mb-0">Delivering domain expertise and technology-driven offerings to help you turn
+                    digital challenges into opportunities.</p>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-4 mb-3">
+                    <a href="#" class="bg-white p-5 services__box h-100">
+                        <h3 class="title">Persistent <br> Consulting<i class="fa-solid fa-arrow-right ms-2 fs-16"></i>
+                        </h3>
+                        <i class="fa-solid fa-handshake icon"></i>
+                    </a>
+                </div>
+                <div class="col-12 col-md-4 mb-3">
+                    <a href="#" class="bg-white p-5 services__box h-100">
+                        <h3 class="title">Software Product <br> Engineering<i
+                                class="fa-solid fa-arrow-right ms-2 fs-16"></i></h3>
+                        <i class="fa-solid fa-laptop-code icon"></i>
+                    </a>
+                </div>
+                <div class="col-12 col-md-4 mb-3">
+                    <a href="#" class="bg-white p-5 services__box h-100">
+                        <h3 class="title">Mobile App <br> Development <i class="fa-solid fa-arrow-right ms-2 fs-16"></i>
+                        </h3>
+                        <i class="fa-solid fa-mobile-alt icon"></i>
+                    </a>
+                </div>
+                <div class="col-12 col-md-4 mb-3">
+                    <a href="#" class="bg-white p-5 services__box h-100">
+                        <h3 class="title">Cloud & <br> Infrastructure<i class="fa-solid fa-arrow-right ms-2 fs-16"></i>
+                        </h3>
+                        <i class="fa-solid fa-cloud icon"></i>
+                    </a>
+                </div>
+                <div class="col-12 col-md-4 mb-3">
+                    <a href="#" class="bg-white p-5 services__box h-100">
+                        <h3 class="title">Intelligent <br> Automation<i class="fa-solid fa-arrow-right ms-2 fs-16"></i>
+                        </h3>
+                        <i class="fa-solid fa-cogs icon"></i>
+                    </a>
+                </div>
+                <div class="col-12 col-md-4 mb-3">
+                    <a href="#" class="bg-white p-5 services__box h-100">
+                        <h3 class="title">Enterprise IT <br> Security<i class="fa-solid fa-arrow-right ms-2 fs-16"></i>
+                        </h3>
+                        <i class="fa-solid fa-shield-alt icon"></i>
+                    </a>
+                </div>
+                <div class="col-12 col-md-4 mb-3">
+                    <a href="#" class="bg-white p-5 services__box h-100">
+                        <h3 class="title">Data & <br> Analytics<i class="fa-solid fa-arrow-right ms-2 fs-16"></i></h3>
+                        <i class="fa-solid fa-chart-bar icon"></i>
+                    </a>
+                </div>
+                <div class="col-12 col-md-4 mb-3">
+                    <a href="#" class="bg-white p-5 services__box h-100">
+                        <h3 class="title">Application <br> Development & <br> Management<i
+                                class="fa-solid fa-arrow-right ms-2 fs-16"></i></h3>
+                        <i class="fa-solid fa-cube icon"></i>
+                    </a>
+                </div>
+                <div class="col-12 col-md-4 mb-3">
+                    <a href="#" class="bg-white p-5 services__box h-100">
+                        <h3 class="title">Enterprise <br> Integration<i class="fa-solid fa-arrow-right ms-2 fs-16"></i>
+                        </h3>
+                        <i class="fa-solid fa-link icon"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-5 bg-white">
+        <div class="container-xl">
+            <h3 class="fw-bold text__secondary mb-3">Focus areas of our work</h3>
+            <div class="row">
+                <div class="col-12 col-md-4 mb-3">
+                    <h4 class="mb-0 fw-light text__secondary">Let's engineer a modern world</h4>
+                </div>
+                <div class="col-12 col-md-8 mb-3">
+                    <p class="text__secondary mb-0 fs-16 fw-500">To capture today's opportunities, organizations need
+                        partners who can adapt and scale
+                        to meet their dynamic needs. Cognizant supports clients across the fundamental
+                        pillars of modern software engineering.</p>
+                </div>
+            </div>
+            <div class="accordion work__accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Software delivery modernization
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p class="text__secondary fw-500">Cognizant partners to drive fundamental improvements in
+                                the way organizations design,
+                                build, launch and improve upon software. By setting our sights on processes, skillsets,
+                                platform enablers and culture, we co-create a pathway for project-to- product
+                                transformation fit for the enterprise.</p>
+
+                            <p class="text__secondary fw-500">Through delivery modernization, we collaborate with our
+                                clients to initiate pilot
+                                projects that ignite transformation and showcase their success and scale. We integrate
+                                modern tools like generative Al into the software delivery process to speed and further
+                                value generation.</p>
+
+                            <p class="text__secondary fw-500">Delivery modernization is about future readiness on an
+                                enterprise scale and we help our
+                                clients get there.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Product engineering
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p class="text__secondary fw-500">Cognizant partners to drive fundamental improvements in
+                                the way organizations design,
+                                build, launch and improve upon software. By setting our sights on processes, skillsets,
+                                platform enablers and culture, we co-create a pathway for project-to- product
+                                transformation fit for the enterprise.</p>
+
+                            <p class="text__secondary fw-500">Through delivery modernization, we collaborate with our
+                                clients to initiate pilot
+                                projects that ignite transformation and showcase their success and scale. We integrate
+                                modern tools like generative Al into the software delivery process to speed and further
+                                value generation.</p>
+
+                            <p class="text__secondary fw-500">Delivery modernization is about future readiness on an
+                                enterprise scale and we help our
+                                clients get there.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Plateform engineering
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p class="text__secondary fw-500">Cognizant partners to drive fundamental improvements in
+                                the way organizations design,
+                                build, launch and improve upon software. By setting our sights on processes, skillsets,
+                                platform enablers and culture, we co-create a pathway for project-to- product
+                                transformation fit for the enterprise.</p>
+
+                            <p class="text__secondary fw-500">Through delivery modernization, we collaborate with our
+                                clients to initiate pilot
+                                projects that ignite transformation and showcase their success and scale. We integrate
+                                modern tools like generative Al into the software delivery process to speed and further
+                                value generation.</p>
+
+                            <p class="text__secondary fw-500">Delivery modernization is about future readiness on an
+                                enterprise scale and we help our
+                                clients get there.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-5 bg__eeeeee">
+        <div class="container-xl">
+            <div class="text-center">
+                <h3 class="fw-bold mb-2">Our industry expertise and solutions</h3>
+                <p class="mb-0 text__light">Creating business value at the intersection of your industry transformation
+                    and today's latest technology innovation.</p>
+            </div>
+        </div>
+    </section>
+    <section class="bg___colors___section">
+        <div class="container-xl">
+            <div class="row mx-0">
+                <div class="col-12 col-md-4 p-0">
+                    <a href="#" class="box box-1">
+                        <h5 class="text-white">Banking &<br>Financial<br>Services</h5>
+                    </a>
+                </div>
+                <div class="col-12 col-md-4 p-0">
+                    <a href="#" class="box box-2">
+                        <h5 class="text-white">Insurance</h5>
+                    </a>
+                </div>
+                <div class="col-12 col-md-4 p-0">
+                    <a href="#" class="box box-3">
+                        <h5 class="text-white">Healthcare</h5>
+                    </a>
+                </div>
+                <div class="col-12 col-md-4 p-0">
+                    <a href="#" class="box box-4">
+                        <h5 class="text-white">Life Sciences</h5>
+                    </a>
+                </div>
+                <div class="col-12 col-md-4 p-0">
+                    <a href="#" class="box box-5">
+                        <h5 class="text-white">Industrial</h5>
+                    </a>
+                </div>
+                <div class="col-12 col-md-4 p-0">
+                    <a href="#" class="box box-6">
+                        <h5 class="text-white">Software & <br>Hi-Tech</h5>
+                    </a>
+                </div>
+                <div class="col-12 col-md-6 p-0">
+                    <a href="#" class="box box-7">
+                        <h5 class="text-white">Telecom & Media</h5>
+                    </a>
+                </div>
+                <div class="col-12 col-md-6 p-0">
+                    <a href="#" class="box box-8">
+                        <h5 class="text-white">Consumer Tech</h5>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-white pt-5 blogs__section">
+        <div class="container-xl">
+            <h3 class="fw-bold mb-3">What we think</h3>
+            <div class="row">
+                <div class="col-12 col-md-8 mb-5">
+                    <div class="blog">
+                        <div class="row">
+                            <div class="col-4 col-md-3">
+                                <img src="https://placehold.co/300x300/000000/FFFFFF/png?text=blog" alt="blog"
+                                    class="img-fluid">
+                            </div>
+                            <div class="col-8 col-md-8">
+                                <h5 class="blog__category">Technology innovation</h5>
+                                <h4 class="blog__title">Technology Vision 2024</h4>
+                                <p class="blog__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Officiis magnam quidem facilis excepturi sunt voluptates.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog">
+                        <div class="row">
+                            <div class="col-4 col-md-3">
+                                <img src="https://placehold.co/300x300/000000/FFFFFF/png?text=blog" alt="blog"
+                                    class="img-fluid">
+                            </div>
+                            <div class="col-8 col-md-8">
+                                <h5 class="blog__category">Technology innovation</h5>
+                                <h4 class="blog__title">Technology Vision 2024</h4>
+                                <p class="blog__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Officiis magnam quidem facilis excepturi sunt voluptates.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="blogs__by__category">
+                        <div class="border-bottom">
+                            <h5 class="blog__category fs-12 mb-1 pb-1">Technology Innovation</h5>
+                            <h4 class="blog__title fs-14">Technology Vision 2024</h4>
+                            <h4 class="blog__title fs-14">Technology Vision 2024</h4>
+                        </div>
+                        <div class="border-bottom">
+                            <h5 class="blog__category fs-12 mb-1 pb-1">Strategy & Consulting</h5>
+                            <h4 class="blog__title fs-14">Total Enterprise Reinvention</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-5 bg___light">
+        <div class="container-xl">
+            <div class="mb-4">
+                <h4 class="mb-0 font__secondary">Partner Ecosystem</h4>
+            </div>
+            <div class="d-flex align-items-center flex-wrap gap__30">
+                <img src="https://placehold.co/140x50/000000/FFFFFF/png?text=logo1" alt="logo" class="img-fluid">
+                <img src="https://placehold.co/140x50/000000/FFFFFF/png?text=logo1" alt="logo" class="img-fluid">
+                <img src="https://placehold.co/140x50/000000/FFFFFF/png?text=logo1" alt="logo" class="img-fluid">
+                <img src="https://placehold.co/140x50/000000/FFFFFF/png?text=logo1" alt="logo" class="img-fluid">
+                <img src="https://placehold.co/140x50/000000/FFFFFF/png?text=logo1" alt="logo" class="img-fluid">
+                <img src="https://placehold.co/140x50/000000/FFFFFF/png?text=logo1" alt="logo" class="img-fluid">
+                <img src="https://placehold.co/140x50/000000/FFFFFF/png?text=logo1" alt="logo" class="img-fluid">
+                <img src="https://placehold.co/140x50/000000/FFFFFF/png?text=logo1" alt="logo" class="img-fluid">
+                <img src="https://placehold.co/140x50/000000/FFFFFF/png?text=logo1" alt="logo" class="img-fluid">
+            </div>
+        </div>
+    </section>
+    <section class="bg-white py-5">
+        <div class="container-xl">
+            <div class="text-center mb-5">
+                <h4 class="mb-0 info__color">Tools & Technologies</h4>
+            </div>
+            <div class="mb-5 tabs__">
+                <ul class="nav nav-pills mb-5" role="tablist">
+                    <li class="nav-item col-4" role="presentation">
+                        <button class="nav-link active" id="pills-plateforms-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-plateforms" type="button" role="tab" aria-controls="pills-plateforms"
+                            aria-selected="true">Plateforms & Frameworks</button>
+                    </li>
+                    <li class="nav-item col-4" role="presentation">
+                        <button class="nav-link" id="pills-programming-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-programming" type="button" role="tab"
+                            aria-controls="pills-programming" aria-selected="false">Programming Languages</button>
+                    </li>
+                    <li class="nav-item col-4" role="presentation">
+                        <button class="nav-link" id="pills-database-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-database" type="button" role="tab" aria-controls="pills-database"
+                            aria-selected="false">Database & Reporting</button>
+                    </li>
+                </ul>
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-plateforms" role="tabpanel"
+                        aria-labelledby="pills-plateforms-tab" tabindex="0">
+                        <div class="row mx-0">
+                            <div class="col-6 col-md-3 col-xl-2 px-0">
+                                <div class="p-3 border h-100 text-center">
+                                    <img src="https://placehold.co/80x40/000000/FFFFFF/png?text=logo1" alt="logo"
+                                        class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3 col-xl-2 px-0">
+                                <div class="p-3 border h-100 text-center">
+                                    <img src="https://placehold.co/80x40/000000/FFFFFF/png?text=logo1" alt="logo"
+                                        class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3 col-xl-2 px-0">
+                                <div class="p-3 border h-100 text-center">
+                                    <img src="https://placehold.co/80x40/000000/FFFFFF/png?text=logo1" alt="logo"
+                                        class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3 col-xl-2 px-0">
+                                <div class="p-3 border h-100 text-center">
+                                    <img src="https://placehold.co/80x40/000000/FFFFFF/png?text=logo1" alt="logo"
+                                        class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3 col-xl-2 px-0">
+                                <div class="p-3 border h-100 text-center">
+                                    <img src="https://placehold.co/80x40/000000/FFFFFF/png?text=logo1" alt="logo"
+                                        class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3 col-xl-2 px-0">
+                                <div class="p-3 border h-100 text-center">
+                                    <img src="https://placehold.co/80x40/000000/FFFFFF/png?text=logo1" alt="logo"
+                                        class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3 col-xl-2 px-0">
+                                <div class="p-3 border h-100 text-center">
+                                    <img src="https://placehold.co/80x40/000000/FFFFFF/png?text=logo1" alt="logo"
+                                        class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3 col-xl-2 px-0">
+                                <div class="p-3 border h-100 text-center">
+                                    <img src="https://placehold.co/80x40/000000/FFFFFF/png?text=logo1" alt="logo"
+                                        class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3 col-xl-2 px-0">
+                                <div class="p-3 border h-100 text-center">
+                                    <img src="https://placehold.co/80x40/000000/FFFFFF/png?text=logo1" alt="logo"
+                                        class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3 col-xl-2 px-0">
+                                <div class="p-3 border h-100 text-center">
+                                    <img src="https://placehold.co/80x40/000000/FFFFFF/png?text=logo1" alt="logo"
+                                        class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3 col-xl-2 px-0">
+                                <div class="p-3 border h-100 text-center">
+                                    <img src="https://placehold.co/80x40/000000/FFFFFF/png?text=logo1" alt="logo"
+                                        class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3 col-xl-2 px-0">
+                                <div class="p-3 border h-100 text-center">
+                                    <img src="https://placehold.co/80x40/000000/FFFFFF/png?text=logo1" alt="logo"
+                                        class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-programming" role="tabpanel"
+                        aria-labelledby="pills-programming-tab" tabindex="0">
+                        <div class="row mx-0">
+                            <div class="col-6 col-md-3 col-xl-2 px-0">
+                                <div class="p-3 border h-100 text-center">
+                                    <img src="https://placehold.co/80x40/000000/FFFFFF/png?text=logo1" alt="logo"
+                                        class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3 col-xl-2 px-0">
+                                <div class="p-3 border h-100 text-center">
+                                    <img src="https://placehold.co/80x40/000000/FFFFFF/png?text=logo1" alt="logo"
+                                        class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3 col-xl-2 px-0">
+                                <div class="p-3 border h-100 text-center">
+                                    <img src="https://placehold.co/80x40/000000/FFFFFF/png?text=logo1" alt="logo"
+                                        class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3 col-xl-2 px-0">
+                                <div class="p-3 border h-100 text-center">
+                                    <img src="https://placehold.co/80x40/000000/FFFFFF/png?text=logo1" alt="logo"
+                                        class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3 col-xl-2 px-0">
+                                <div class="p-3 border h-100 text-center">
+                                    <img src="https://placehold.co/80x40/000000/FFFFFF/png?text=logo1" alt="logo"
+                                        class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3 col-xl-2 px-0">
+                                <div class="p-3 border h-100 text-center">
+                                    <img src="https://placehold.co/80x40/000000/FFFFFF/png?text=logo1" alt="logo"
+                                        class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3 col-xl-2 px-0">
+                                <div class="p-3 border h-100 text-center">
+                                    <img src="https://placehold.co/80x40/000000/FFFFFF/png?text=logo1" alt="logo"
+                                        class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3 col-xl-2 px-0">
+                                <div class="p-3 border h-100 text-center">
+                                    <img src="https://placehold.co/80x40/000000/FFFFFF/png?text=logo1" alt="logo"
+                                        class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3 col-xl-2 px-0">
+                                <div class="p-3 border h-100 text-center">
+                                    <img src="https://placehold.co/80x40/000000/FFFFFF/png?text=logo1" alt="logo"
+                                        class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3 col-xl-2 px-0">
+                                <div class="p-3 border h-100 text-center">
+                                    <img src="https://placehold.co/80x40/000000/FFFFFF/png?text=logo1" alt="logo"
+                                        class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3 col-xl-2 px-0">
+                                <div class="p-3 border h-100 text-center">
+                                    <img src="https://placehold.co/80x40/000000/FFFFFF/png?text=logo1" alt="logo"
+                                        class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3 col-xl-2 px-0">
+                                <div class="p-3 border h-100 text-center">
+                                    <img src="https://placehold.co/80x40/000000/FFFFFF/png?text=logo1" alt="logo"
+                                        class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-database" role="tabpanel" aria-labelledby="pills-database-tab"
+                        tabindex="0">
+                        <div class="row mx-0">
+                            <div class="col-6 col-md-3 col-xl-2 px-0">
+                                <div class="p-3 border h-100 text-center">
+                                    <img src="https://placehold.co/80x40/000000/FFFFFF/png?text=logo1" alt="logo"
+                                        class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3 col-xl-2 px-0">
+                                <div class="p-3 border h-100 text-center">
+                                    <img src="https://placehold.co/80x40/000000/FFFFFF/png?text=logo1" alt="logo"
+                                        class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3 col-xl-2 px-0">
+                                <div class="p-3 border h-100 text-center">
+                                    <img src="https://placehold.co/80x40/000000/FFFFFF/png?text=logo1" alt="logo"
+                                        class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3 col-xl-2 px-0">
+                                <div class="p-3 border h-100 text-center">
+                                    <img src="https://placehold.co/80x40/000000/FFFFFF/png?text=logo1" alt="logo"
+                                        class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3 col-xl-2 px-0">
+                                <div class="p-3 border h-100 text-center">
+                                    <img src="https://placehold.co/80x40/000000/FFFFFF/png?text=logo1" alt="logo"
+                                        class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3 col-xl-2 px-0">
+                                <div class="p-3 border h-100 text-center">
+                                    <img src="https://placehold.co/80x40/000000/FFFFFF/png?text=logo1" alt="logo"
+                                        class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3 col-xl-2 px-0">
+                                <div class="p-3 border h-100 text-center">
+                                    <img src="https://placehold.co/80x40/000000/FFFFFF/png?text=logo1" alt="logo"
+                                        class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3 col-xl-2 px-0">
+                                <div class="p-3 border h-100 text-center">
+                                    <img src="https://placehold.co/80x40/000000/FFFFFF/png?text=logo1" alt="logo"
+                                        class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3 col-xl-2 px-0">
+                                <div class="p-3 border h-100 text-center">
+                                    <img src="https://placehold.co/80x40/000000/FFFFFF/png?text=logo1" alt="logo"
+                                        class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3 col-xl-2 px-0">
+                                <div class="p-3 border h-100 text-center">
+                                    <img src="https://placehold.co/80x40/000000/FFFFFF/png?text=logo1" alt="logo"
+                                        class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3 col-xl-2 px-0">
+                                <div class="p-3 border h-100 text-center">
+                                    <img src="https://placehold.co/80x40/000000/FFFFFF/png?text=logo1" alt="logo"
+                                        class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3 col-xl-2 px-0">
+                                <div class="p-3 border h-100 text-center">
+                                    <img src="https://placehold.co/80x40/000000/FFFFFF/png?text=logo1" alt="logo"
+                                        class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row form__section">
+                <div class="col-12 col-md-4 mb-5 mb-md-0">
+                    <h1 class="font__secondary mb-3">Request for services</h1>
+                    <p class="text__light mb-0">Find out more about how we can help your organization navigate its next.
+                        Let us know your areas
+                        of interest so that we can serve you better.</p>
+                </div>
+                <div class="col-12 col-md-8">
+                    <form action="#">
+                        <div class="row">
+                            <div class="col-12 col-sm-6 mb-3">
+                                <input type="text" placeholder="FIRST NAME" class="form-control">
+                            </div>
+                            <div class="col-12 col-sm-6 mb-3">
+                                <input type="text" placeholder="LAST NAME" class="form-control">
+                            </div>
+                            <div class="col-12 col-sm-6 mb-3">
+                                <input type="email" placeholder="EMAIL" class="form-control">
+                            </div>
+                            <div class="col-12 col-sm-6 mb-3">
+                                <input type="text" placeholder="COMPANY" class="form-control">
+                            </div>
+                            <div class="col-12 col-sm-6 mb-3">
+                                <input type="text" placeholder="JOB TITLE" class="form-control">
+                            </div>
+                            <div class="col-12 col-sm-6 mb-3">
+                                <input type="text" placeholder="PHONE" class="form-control">
+                            </div>
+                            <div class="col-12 mb-3">
+                                <textarea class="form-control" placeholder="MESSAGE" rows="3"></textarea>
+                            </div>
+                            <div class="col-12 mb-3 form-check form-switch ps-5">
+                                <input class="form-check-input" type="checkbox" role="switch"
+                                    id="flexSwitchCheckChecked">
+                                <label class="form-check-label" for="flexSwitchCheckChecked">Opt in for marketing
+                                    communication <a href="#" class="text-dark text-decoration-underline">Privacy
+                                        Statement</a></label>
+                            </div>
+                            <div class="col-12">
+                                <button type="submit" class="btn__ btn__secondary fs-14">SUBMIT</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer bg__secondary py-5">
+        <div class="container-xl">
+            <div class="row border-bottom">
+                <div class="col-6 col-md-4 col-xl-2 mb-5">
+                    <h5 class="text-white group__heading">Digital Engineering Cloud AI</h5>
+                </div>
+                <div class="col-12 col-md-8 col-xl-4 mb-5">
+                    <h5 class="text-white group__heading">Services</h5>
+                    <div class="row">
+                        <div class="col-6">
+                            <h5 class="text-white group__heading__inner">Digital Business</h5>
+                            <ul class="mb-5">
+                                <li><a href="#" class="footer-items">Digital Consulting</a></li>
+                                <li><a href="#" class="footer-items">Data and Analytice</a></li>
+                                <li><a href="#" class="footer-items">Total Experience</a></li>
+                                <li><a href="#" class="footer-items">Software-as-a-Service</a></li>
+                                <li><a href="#" class="footer-items">Enterprise Applications</a></li>
+                                <li><a href="#" class="footer-items">Application Development and Maintenance Engineering
+                                        and R&D</a></li>
+                                <li><a href="#" class="footer-items">Application Modernization</a></li>
+                                <li><a href="#" class="footer-items">Intelligent Automation and Integration</a></li>
+                            </ul>
+                            <h5 class="text-white group__heading__inner">Digital Foundation</h5>
+                            <ul>
+                                <li><a href="#" class="footer-items">Digital Foundation Consulting</a></li>
+                                <li><a href="#" class="footer-items">Hybrid Cloud</a></li>
+                                <li><a href="#" class="footer-items">Digital Workplace</a></li>
+                                <li><a href="#" class="footer-items">CloudSMART</a></li>
+                                <li><a href="#" class="footer-items">Networks</a></li>
+                                <li><a href="#" class="footer-items">Cybersecurity</a></li>
+                                <li><a href="#" class="footer-items">Intelligent Operations</a></li>
+                                <li><a href="#" class="footer-items">Unified Service Management</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-6">
+                            <h5 class="text-white group__heading__inner">Digital Process Operations</h5>
+                            <ul class="mb-5">
+                                <li><a href="#" class="footer-items">Lending Solutions</a></li>
+                                <li><a href="#" class="footer-items">Supply Chain Management</a></li>
+                                <li><a href="#" class="footer-items">Finance and Accounting</a></li>
+                                <li><a href="#" class="footer-items">Marketing Operations and Content</a></li>
+                                <li><a href="#" class="footer-items">Cognitive Automation</a></li>
+                            </ul>
+                            <h5 class="text-white group__heading__inner">Engineering and R&D</h5>
+                            <ul class="mb-5">
+                                <li><a href="#" class="footer-items">Digital Engineering</a></li>
+                                <li><a href="#" class="footer-items">Manufacturing Operations</a></li>
+                                <li><a href="#" class="footer-items">Product Engineering</a></li>
+                                <li><a href="#" class="footer-items">Industry Verticals</a></li>
+                            </ul>
+                            <h5 class="text-white group__heading__inner">CloudSMART</h5>
+                            <ul>
+                                <li><a href="#" class="footer-items">IoT WORKSTM</a></li>
+                                <li><a href="#" class="footer-items">EdTech</a></li>
+                                <li><a href="#" class="footer-items">HCLTech X</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-xl-2 mb-5">
+                    <h5 class="text-white group__heading">Industries</h5>
+                    <ul>
+                        <li><a href="#" class="footer-items">Aerospace and Defense</a></li>
+                        <li><a href="#" class="footer-items">Captive Business Services Consumer Goods</a></li>
+                        <li><a href="#" class="footer-items">Energy and Utilities</a></li>
+                        <li><a href="#" class="footer-items">Technology</a></li>
+                        <li><a href="#" class="footer-items">Life Sciences and Healthcare</a></li>
+                        <li><a href="#" class="footer-items">Manufacturing</a></li>
+                        <li><a href="#" class="footer-items">Mining and Natural Resources</a></li>
+                        <li><a href="#" class="footer-items">Oil and Gas</a></li>
+                        <li><a href="#" class="footer-items">Public Sector</a></li>
+                        <li><a href="#" class="footer-items">Retail</a></li>
+                        <li><a href="#" class="footer-items">Telecom Media and Entertainment Services</a></li>
+                        <li><a href="#" class="footer-items">Travel, Transport, Logistics & Hospitality</a></li>
+                        <li><a href="#" class="footer-items">Financial Services</a></li>
+                        <li><a href="#" class="footer-items">Banking Insurance</a></li>
+                        <li><a href="#" class="footer-items">Capital Markets</a></li>
+                        <li><a href="#" class="footer-items">Fintech</a></li>
+                        <li><a href="#" class="footer-items">Financial Crime Compliance and Risk</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-4 col-xl-2 mb-5">
+                    <h5 class="text-white group__heading">Ecosystem</h5>
+                    <h5 class="text-white group__heading__inner">About Us</h5>
+                    <ul>
+                        <li><a href="#" class="footer-items">About Us Overview</a></li>
+                        <li><a href="#" class="footer-items">Supercharging Progress</a></li>
+                        <li><a href="#" class="footer-items">Leadership</a></li>
+                        <li><a href="#" class="footer-items">Newsroom</a></li>
+                        <li><a href="#" class="footer-items">Annual Report 2023</a></li>
+                        <li><a href="#" class="footer-items">Sustainability Report 2023</a></li>
+                        <li><a href="#" class="footer-items">Global Presence</a></li>
+                        <li><a href="#" class="footer-items">Strategic Alliances</a></li>
+                        <li><a href="#" class="footer-items">Corporate Social</a></li>
+                        <li><a href="#" class="footer-items">Responsibility</a></li>
+                        <li><a href="#" class="footer-items">Awards and Recognition</a></li>
+                        <li><a href="#" class="footer-items">Sustainability</a></li>
+                        <li><a href="#" class="footer-items">Analyst Recognitions</a></li>
+                        <li><a href="#" class="footer-items">Diversity, Equity and Inclusion</a></li>
+                        <li><a href="#" class="footer-items">Privacy Trust Center</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-4 col-xl-2 mb-5">
+                    <h5 class="text-white group__heading">Careers</h5>
+                    <ul>
+                        <li><a href="#" class="footer-items">Careers Overview</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="social__icons__container my-3">
+                <a href="#" class="facebook icon">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="#" class="twitter icon">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+                <a href="#" class="twitter icon">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="#" class="instagram icon">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="#" class="youtube icon">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+                <a href="#" class="youtube icon">
+                    <i class="fa-brands fa-threads"></i>
+                </a>
+            </div>
+            <div class="text-center">
+                <p class="mb-0 fs-12 text-white">Copyright © 2024 HCL Technologies Limited
+                    <a href="#" class="text-white">Contact Us</a>
+                    /
+                    <a href="#" class="text-white">Disclaimer</a>
+                    /
+                    <a href="#" class="text-white">Privacy Statement</a>
+                    /
+                    <a href="#" class="text-white">Terms of use</a>
+                    /
+                    <a href="#" class="text-white">Sitemap</a>
+                    /
+                    <a href="#" class="text-white">Raise a Grievance</a>
+                </p>
+                <p class="mb-0 fs-12 text-white">We use cookies on our site. Please read more about <a href="#">cookies
+                        policy</a> here.</p>
+            </div>
+    </footer>
+
+    <!-- jquery js -->
+    <script src="./assets/vendor/jquery/js/jquery-3.6.4.min.js"></script>
+    <!-- slick slider js -->
+    <script src="./assets/vendor/slick-slider/js/slick.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="./assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- custom js -->
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
