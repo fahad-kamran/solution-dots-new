@@ -131,6 +131,11 @@ h6,
 
 /* font weights */
 
+.icons-40 {
+    width: 40px;
+    height: auto;
+}
+
 /* form section */
 .form__section .form-control {
     border: none;
@@ -310,20 +315,41 @@ h6,
     background-size: contain;
 }
 
-.work__accordion .accordion-item:nth-child(1) .accordion-button {
+.work__accordion .accordion-item:nth-child(3n + 1) .accordion-button {
     background-color: var(--secondary-color);
 }
 
-.work__accordion .accordion-item:nth-child(2) .accordion-button {
+.work__accordion .accordion-item:nth-child(3n + 2) .accordion-button {
     background-color: #2568c0;
 }
 
-.work__accordion .accordion-item:nth-child(3) .accordion-button {
+.work__accordion .accordion-item:nth-child(3n + 3) .accordion-button {
     background-color: #41a0dd;
 }
 
 .accordion-button:focus {
     box-shadow: none;
+}
+
+.white__accordion .accordion-button {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.white__accordion .accordion-button::after {
+    width: 16px;
+    height: 16px;
+    background-size: contain;
+}
+
+.white__accordion .accordion-body {
+    font-size: 14px;
+    color: var(--text-light-color);
+}
+
+.white__accordion .accordion-button:not(.collapsed) {
+    background-color: var(--white-color);
+    border-bottom: 1px solid #dee2e6;
 }
 
 /* accordion */
@@ -348,6 +374,26 @@ h6,
 }
 
 /* flex */
+
+/* arrow box */
+.arrow__box{
+    position:relative;
+}
+/* .arrow__box::before{
+    position: absolute;
+    content: "";
+    background-image: url("../images/arrow-right-solid.svg");
+    background-color: var(--info-color);
+    background-size: contain;
+    width: 50px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 20px;
+    right: -6px;
+} */
+/* arrow box */
 
 /* button */
 a {
